@@ -1,7 +1,5 @@
-from pytest import fixture
-
 from problem1 import get_floor, get_basement_index
-from problem1_input import INPUT
+from input import INPUT
 
 def test_get_floor():
     assert get_floor('(())') == 0
